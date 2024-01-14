@@ -1,5 +1,6 @@
 /* ------ Medium Device ------ */
 @media screen and (min-width: 992px) and (max-width:1200px) {
+    #featured,
     .brand_logos,
     .banner_content,
     #menubar {
@@ -13,11 +14,11 @@
     #menubar {
         flex-direction: column;
     }
-
+    .featured_content,
     .banner_content {
         flex-direction: column-reverse;
     }
-
+    .featured_content,
     .banner_content {
         text-align: center;
     }
@@ -29,9 +30,13 @@
     #menubar {
         gap: 20px;
     }
+    #featured,
     .brand_logos,
     .banner_content {
         padding: 30px;
+    }
+    .collection_container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -42,11 +47,11 @@
     #menubar {
         flex-direction: column;
     }
-
+    .featured_content,
     .banner_content {
         flex-direction: column-reverse;
     }
-
+    .featured_content,
     .banner_content {
         text-align: center;
     }
@@ -59,12 +64,12 @@
     .banner_content {
         gap: 50px;
     }
+    .featured_content,
     .brand_logos,
     .banner_content,
     #menubar {
         padding: 30px;
     }
-
     #banner {
         padding: 0;
     }
@@ -77,5 +82,8 @@
     .banner_text h1 {
         font-size: 1.75rem;
         line-height: 40px;
+    }
+    .collection_container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
