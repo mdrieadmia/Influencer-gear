@@ -32,6 +32,26 @@ a{
     width: 1110px;
     margin: 0 auto;
 }
+.bx{
+    font-weight: 700;
+    vertical-align: middle;
+}
+.btn{
+    padding: 10px 25px;
+    background: var(--secondary-color);
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: var(--light-01);
+    transition: 0.2s all linear;
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
 /* -----Header Section----- */
 header{
     max-width: 1200px;
@@ -64,6 +84,35 @@ header{
 .main_menu ul li a:hover{
     color: var(--secondary-color);
 }
-.bx{
+/* ----- Banner Section ----- */
+#banner{
+    padding: 50px 0 70px 0;
+}
+.banner_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_text{
+    max-width: 580px;
+}
+.banner_text h1{
+    font-size: 3.25rem;
     font-weight: 700;
+    font-family: var(--poppins);
+    color: var(--dark-02);
+    line-height: 70px;
+}
+.banner_text p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--dark-02);
+    margin: 15px 0;
+}
+.banner_img{
+    background: url(../images/Circle\ design.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
