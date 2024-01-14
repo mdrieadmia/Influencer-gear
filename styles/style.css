@@ -116,3 +116,13 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+/* ----- Brand Section ----- */
+#brand{
+    padding-bottom: 100px;
+}
+.brand_logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
