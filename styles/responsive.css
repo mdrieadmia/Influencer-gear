@@ -1,63 +1,80 @@
 /* ------ Medium Device ------ */
 @media screen and (min-width: 992px) and (max-width:1200px) {
+    .brand_logos,
     .banner_content,
-    #menubar{
+    #menubar {
         padding: 0 30px 0 30px;
     }
+
 }
+
 /* ------ Tablet Device ------ */
 @media screen and (min-width:576px) and (max-width:991.98px) {
-    #menubar{
+    #menubar {
         flex-direction: column;
     }
-    .banner_content{
+
+    .banner_content {
         flex-direction: column-reverse;
     }
-    .banner_content{
+
+    .banner_content {
         text-align: center;
     }
-    .banner_content{
+
+    .banner_content {
         gap: 50px;
     }
-    #menubar{
+
+    #menubar {
         gap: 20px;
     }
-    .banner_content{
+    .brand_logos,
+    .banner_content {
         padding: 30px;
     }
 }
+
 /* ------ Mobile Device ------ */
 @media screen and (max-width:575.98px) {
 
     .main_menu ul,
-    #menubar{
+    #menubar {
         flex-direction: column;
     }
-    .banner_content{
+
+    .banner_content {
         flex-direction: column-reverse;
     }
-    .banner_content{
+
+    .banner_content {
         text-align: center;
     }
+
     .main_menu ul,
-    #menubar{
+    #menubar {
         gap: 20px;
     }
-    .banner_content{
+
+    .banner_content {
         gap: 50px;
     }
+    .brand_logos,
     .banner_content,
-    #menubar{
+    #menubar {
         padding: 30px;
     }
-    #banner{
+
+    #banner {
         padding: 0;
     }
+
     .banner_img img,
-    .banner_img{
+    .banner_img {
         width: 100%;
     }
-    .banner_text h1{
+
+    .banner_text h1 {
         font-size: 1.75rem;
         line-height: 40px;
     }
