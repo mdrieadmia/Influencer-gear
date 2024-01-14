@@ -1,5 +1,6 @@
 /* ------ Medium Device ------ */
 @media screen and (min-width: 992px) and (max-width:1200px) {
+    .banner_content,
     #menubar{
         padding: 0 30px 0 30px;
     }
@@ -9,22 +10,55 @@
     #menubar{
         flex-direction: column;
     }
+    .banner_content{
+        flex-direction: column-reverse;
+    }
+    .banner_content{
+        text-align: center;
+    }
+    .banner_content{
+        gap: 50px;
+    }
     #menubar{
         gap: 20px;
+    }
+    .banner_content{
+        padding: 30px;
     }
 }
 /* ------ Mobile Device ------ */
 @media screen and (max-width:575.98px) {
+
     .main_menu ul,
     #menubar{
         flex-direction: column;
+    }
+    .banner_content{
+        flex-direction: column-reverse;
+    }
+    .banner_content{
+        text-align: center;
     }
     .main_menu ul,
     #menubar{
         gap: 20px;
     }
+    .banner_content{
+        gap: 50px;
+    }
+    .banner_content,
     #menubar{
         padding: 30px;
     }
-
+    #banner{
+        padding: 0;
+    }
+    .banner_img img,
+    .banner_img{
+        width: 100%;
+    }
+    .banner_text h1{
+        font-size: 1.75rem;
+        line-height: 40px;
+    }
 }
