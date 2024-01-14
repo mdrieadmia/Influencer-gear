@@ -229,3 +229,53 @@ header{
 .featured_text .btn{
     border-radius: 0;
 }
+/* ----- Footer Section ---- */
+footer{
+    max-width: 100%;
+    padding: 50px 0;
+    background: #0A0826;
+}
+.footer_content{
+    max-width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_content h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: var(--light-01);
+}
+.footer_content p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: var(--manrope);
+    color: #D9DBE1;
+    line-height: 24px;
+    margin: 15px 0;
+}
+.social_icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.social_icons a{
+    height: 50px;
+    width: 50px;
+    background: #ffffff1a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color: var(--light-01);
+    transition: 0.2s all linear;
+}
+.social_icons .bx{
+    font-weight: 400;
+}
+.social_icons a:hover{
+    color: #E02C6D;
+    transform: scale(1.1);
+}
