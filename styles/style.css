@@ -129,3 +129,57 @@ header{
     flex-wrap: wrap;
     gap: 50px;
 }
+/* ----- Collection Section ----- */
+#collection{
+    padding-bottom: 100px;
+}
+.colloection_heading h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--dark-02);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.collection_container{
+    padding: 0 30px 0 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.collection_item{
+    padding: 15px;
+    background: var(--light-01);
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.collection_text h3{
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--dark-01);
+    line-height: 40px;
+    margin: 16px 0 5px 0;
+}
+.collection_text h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: var(--dark-03);
+}
+.collection_text h5{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #FB8200;
+    margin: 5px 0;
+}
+.collection_text h5 span{
+    color: #3a3a3a;
+}
+.collection_text p{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--inter);
+    color: var(--dark-05);
+}
